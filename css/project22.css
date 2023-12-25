@@ -1,0 +1,253 @@
+.navbar{
+    margin-top: 0;
+    background: black;
+    width: 100%;
+    height: 65px;
+    box-shadow: 0px 2px 4px;
+    position: fixed;
+    display: block;
+    z-index: 999;
+}
+.navbar img{
+    display: inline-block;
+    width: 65px;
+    height: 46px;
+    margin-left: 10px;
+    margin-top: -8px;
+}
+.navbar .main {
+    margin-top: 20px;
+    display: inline-block;
+    color: white;
+    padding: 7px;
+    text-decoration: none;
+    width: auto;
+    height: auto;
+}
+.navbar ul {
+    float: right;    
+}
+.navbar a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    margin-top: 16px;
+    display:block;
+}
+.navbar ul li {
+    color: white;
+    display: inline-block;
+    margin-top: 3px;
+    margin-right: 35px;
+    padding: 5px 14px;
+    text-decoration: none;
+    position: relative;
+}
+/* .navbar ul li a{
+    padding: 0px 10px;
+    display: block;
+}
+.navbar ul li ul{
+    position: absolute;
+    display: block;
+    border-radius: 0px 0px 5px 5px;
+    background-color: #3d3d3d;
+    width: 50px;
+    margin-left: -35px;
+
+} */
+.navbar ul li:hover{
+    transform: translate(20px);
+    /* background-color: #5f5f5f; */
+    transition: 1.3s;
+}
+
+/* ---------------------------------------------------- */
+/* .header img{
+    width: 50%;
+}
+.header b{
+    margin-left: 22%;
+    font-size: 50px;
+    color: black;
+    align-items: center;
+} */
+.header{
+    background: black;    
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.header img{
+    width: 700px;
+    height: 500px;
+    position: relative;
+}
+.header span{
+    position: absolute;
+    color: white;
+    font-size: 45px;
+    margin-top: 350px;
+
+}
+
+/* ------------------------------------ */
+.bicycle{
+    margin-top: 100px;
+    background: black;
+    height: 80px;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 20px;
+}
+.bicycle span{
+    font-size: 25px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 46%;
+    display: inline-block;
+}
+/* ------- */
+.selles {
+    margin-top: 1%;
+    width: calc(92%/4);
+    padding: 2%;
+    float: left;
+    margin-left: 1.5%;
+    font-size: 17px;
+    /* padding-bottom: 2%; */
+}
+/* .selles:hover {
+    background-color: rgb(216, 216, 216);
+    box-shadow: 0px 2px 4px;
+    transition: 1.3s;
+} */
+.selles img {
+    height: 220px;
+    width: 100%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+}
+.selles .a {
+    display: block;
+}
+.selles .b {
+    color: gray;
+    margin-top: 20px;
+    display: block;
+}
+.selles .c {
+    display: inline-block;
+    margin-top: 10px;
+}
+.selles .b1 {
+    width: 100%;
+    transition: 1s;
+    text-align: center;
+    margin-top: 2%;
+    border: none;
+    padding: 14px 6px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.selles .b1:hover {
+    background-color: rgb(99, 98, 98);
+}
+/* --------------error--------------- */
+.error{
+    height: 900px;
+    /* background: brown; */
+    padding-bottom: 1%;
+}
+/* ---------------------- */
+.eccessories{
+    margin-top: 100px;
+    background: black;
+    height: 80px;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 20px;
+}
+.eccessories span{
+    font-size: 25px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 39%;
+    display: inline-block;
+}
+/* ------- */
+.selles2 {
+    width: calc(92%/4);
+    padding: 2%;
+    float: left;
+    margin-left: 1.5%;
+    font-size: 17px;
+    /* padding-bottom: 2%; */
+}
+.selles2 img {
+    height: 220px;
+    width: 100%;
+    margin-bottom: 2%;
+}
+.selles2 .a {
+    display: block;
+}
+.selles2 .b {
+    color: gray;
+    margin-top: 20px;
+    display: block;
+}
+.selles2 .c {
+    display: inline-block;
+    margin-top: 10px;
+}
+.selles2 .b1 {
+    width: 100%;
+    transition: 1s;
+    text-align: center;
+    margin-top: 2%;
+    border: none;
+    padding: 14px 6px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.selles2 .b1:hover {
+    background-color: rgb(99, 98, 98);
+}
+/* -----------------error2----- */
+.error2{
+    height: 900px;
+    /* background: brown; */
+    padding-bottom: 1%;
+}
+/* ------------about----------- */
+.about{
+    font-size: 40px;
+    margin-left: 2%;
+}
+.about_p{
+    font-size: 20px;
+    padding: 2%;
+    margin-left: 2%;
+
+}
+/* -------------footer----------------------*/
+footer {
+    margin-top: 7%;
+    background-color: #000;
+    color: rgb(252, 247, 237);
+    padding: 50px;
+    text-align: center;
+}
+
+
+.bi{
+    height: 50px;
+}
+.end {
+    display: block;
+    width: 100%;
+    height: 20px;
+    color: aqua;
+}
